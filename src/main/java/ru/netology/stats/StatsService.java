@@ -31,7 +31,7 @@ public class StatsService {
         long min = sales[0];
         int month = 0;
         for (int i = 0; i < sales.length; i++) {
-            if (min > sales[i]) {
+            if (min >= sales[i]) {
                 min = sales[i];
                 month = i;
             }
