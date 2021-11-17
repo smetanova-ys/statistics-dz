@@ -29,7 +29,7 @@ class StatsServiceTest {
     void shouldFindMonthMax() {
         StatsService service = new StatsService();
 
-        int expected = 6;
+        int expected = 8;
         long actual = service.maxSales(sales);
 
         assertEquals(expected, actual);
